@@ -1,0 +1,21 @@
+html, body, footer, ul, li, p, h1, h2, h3, h4, h5, h6, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+ul, ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input, button {
+	border: none;
+	outline: none;
+}
+
+html, body, div, input, footer, ul, li, a {
+	box-sizing: border-box;
+	
+}

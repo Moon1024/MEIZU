@@ -1,0 +1,76 @@
+/* ----------------轮播图---------------- */
+.swiper_container {
+	position: relative;
+	width: 100%;
+	min-width: 1024px;
+	height: 653px;
+	overflow: hidden;
+}
+.swiper_container .swiper {
+	position: absolute;
+	width: 800%;
+	height: 653px;
+	top: 0;
+	left: 0;
+	transition: left 0.5s;
+}
+.swiper_container .swiper a {
+	width: 12.5%;
+	height: 653px;
+	display: block;
+	float: left;
+	overflow: hidden;
+}
+.swiper_container .swiper img {
+	width: 2560px;
+	height: 680px;
+	margin-left: -590px;
+}
+.swiper_container .btn span {
+	display: inline-block;
+	width: 40px;
+	height: 60px;
+	font-size: 30px;
+	background-color: dimgray;
+	border-radius: 2px;
+	opacity: 0.7;
+	line-height: 60px;
+	font-weight: 900;
+	cursor: pointer;
+	text-align: center;
+	position: absolute;
+	
+}
+/* .swiper_container .btn span:hover {
+	color: lightgray;
+	opacity: 1;
+} */
+.swiper_container .btn .left {
+	left: 0;
+	top: 50%;
+}
+.swiper_container .btn .right {
+	right: 0;
+	top: 50%;
+}
+.swiper_container ul {
+	list-style: none;
+	position: absolute;
+	bottom: 20px;
+	left: 571px;
+}
+.swiper_container ul li {
+	width: 7px;
+	height: 7px;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	background-color: #fff;  
+	margin: 0 8px;
+	float: left;
+	cursor: pointer;
+}
+.swiper_container ul .open {
+	width: 8px;
+	height: 8px;
+	background: rgba(255,255,255,0);
+}
